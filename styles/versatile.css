@@ -177,3 +177,52 @@ height: 212px;
 border-radius: 18px;
 
 }
+
+/* 3rd section styles */
+.bmi-container{
+    align-items: center;
+}
+
+.table-container{
+    background: rgb(34, 34, 34);
+}
+.bmi-title{
+    color: rgb(255, 255, 255);
+font-size: 1.5rem;
+font-weight: 900;
+}
+
+.bmi-cotitle{
+    color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 500;
+
+}
+.tdata{
+    color: rgb(255, 255, 255);
+    font-size: .75rem;
+    font-weight: 500;  
+}
+.calculator-container{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(34, 34, 34);
+}
+.field{
+align-items: center;
+gap: 10;
+padding: 12px 40px 12px 20px;
+ margin: 0px 12px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+}
+.large-field{
+    width: 420px;
+    align-items: center;
+    gap: 10;
+    padding: 12px 40px 12px 20px;
+     margin: 0px 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1); 
+}
+
