@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+/* Shared Style */
+.bg{background: rgb(0, 0, 0);}
+.bg-shadow {background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);}
+
+/* nav Style */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+.item-list{
+    width: 465px;
+    height: 46px;
+    list-style: none;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+   gap: 30px;
+   align-items: center;
+}
+.nav-title{
+color: rgb(230, 83, 60);
+font-size: 2rem;
+font-weight: 800;
+}
+.list-home{
+width: 60px;
+height: 28px;
+gap:10;
+align-items: center;
+padding: 4px 10px 4px 10px;
+border-radius: 40px;
+color: rgb(255, 255, 255);
+ background: rgb(230, 83, 60);
+}
+.list{
+color: rgb(255, 255, 255);
+font-size: 1rem;
+}
+/* Banner styles */
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.banner-description{
+color: rgba(255, 255, 255, 0.5);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+.btn-primary{
+width: 200px;
+height: 50px;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+border-radius: 42px;
+background: rgb(230, 83, 60);
+}
+
+.btn-download{
+width: 200px;
+height: 50px;
+box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+color:rgb(255, 255, 255) ;
+border-radius: 42px;
+background: rgb(0, 0, 0);
+    
+}
+
+.banner-img{
+width: 100%;
+height: 100%;
+}
+
+.banner-sidebar-1, .banner-sidebar2{
+width: 193px;
+height: 98px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-title{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: center;
+}
+
+.sidebar-des{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+} 
+
+.banner-sidebar-1{
+    margin-left: 200px;
+}
+.banner-sidebar2{
+    margin-right:200px;
+}
