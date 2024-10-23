@@ -192,7 +192,7 @@ font-size: 1.5rem;
 font-weight: 900;
 }
 
-.bmi-cotitle{
+.bmi-cotitle, .footer-cotitle{
     color: rgb(255, 255, 255);
 font-size: 1rem;
 font-weight: 500;
@@ -236,13 +236,49 @@ background: rgba(255, 255, 255, 0.1);
     height:400px;
 }
 
-/* fotter style */
+/* footer style */
 .footer{
     display: flex;
     justify-content: space-around;
 }
 
-.footer-2nd, .footer-3rd{
+.footer-cotitle{
     list-style: none;
-    text-decoration: none;
+    height: 172px;
+}
+.small-p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+align-items: center;
+
+}
+
+/* Responsive Query */
+@media screen  and (max-width:576px){
+    .hide{
+        display: none;
+    }
+    .banner-container, .change-img-section, .run-container, .calculator-container, .footer{
+        flex-direction: column;
+    }  
+
+    .change-img-section{
+        padding: 100px;
+    }
+    .run-container{
+        padding:70px ;
+
+    }
+.calculator-container{
+    padding: 70px;
+}
+    .large-field{
+        width:162px;
+    }
+    
+    .team-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
