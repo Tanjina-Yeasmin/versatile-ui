@@ -235,3 +235,14 @@ background: rgba(255, 255, 255, 0.1);
     width: 100%;
     height:400px;
 }
+
+/* fotter style */
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-2nd, .footer-3rd{
+    list-style: none;
+    text-decoration: none;
+}
