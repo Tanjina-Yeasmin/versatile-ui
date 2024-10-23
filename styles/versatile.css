@@ -13,6 +13,24 @@
 .bg{background: rgb(0, 0, 0);}
 .bg-shadow {background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);}
 
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center ;
+}
+.subtitle{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 1rem;
+font-weight: 400;
+text-align: center;
+}
+
+.co-title{
+color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 600;
+}
 /* nav Style */
 .nav-container{
     display: flex;
@@ -62,18 +80,13 @@ color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 3rem;
 font-weight: 900;
-line-height: 120%;
-letter-spacing: 0%;
-text-align: left;
+
 }
 
 .banner-description{
 color: rgba(255, 255, 255, 0.5);
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.5px;
-text-align: left;
 }
 
 .btn-primary{
@@ -132,4 +145,35 @@ background: rgba(255, 255, 255, 0.1);
 }
 .banner-sidebar2{
     margin-right:200px;
+}
+/* main section styles */
+.change-img-section{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+width: 150px;
+height: 150px;
+border-radius: 550px;
+}
+
+.change-section{
+gap: 40;
+padding: 0px;
+}
+/* 2nd section (main) */
+.run-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.run-image{
+width: 266px;
+height: 212px;
+border-radius: 18px;
+
 }
